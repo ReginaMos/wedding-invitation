@@ -1,0 +1,144 @@
+@media (max-width: 1550px) {
+    .location {
+        padding: 35px 75px;
+    }
+
+    .location {
+        text-align: center;
+    }
+
+    iframe {
+        max-height: 300px;
+        max-width: 400px;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 1350px) {
+    .location-img {
+        min-height: 507px;
+        object-fit: cover;
+        min-width: 100vw;
+    }
+
+    .location {
+        padding: 35px 40px;
+    }
+
+    .location-content {
+        min-width: fit-content;
+    }
+
+    .line {
+        margin-bottom: 25px;
+        width: 206px;
+    }
+
+    .time-place {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        gap: 10px;
+    }
+
+    .time-place-text {
+        font-size: 15px;
+    }
+
+    .time-place-number {
+        font-size: 24px;
+    }
+
+    .time, .place {
+        gap: 10px;
+    }
+
+    iframe {
+        max-height: 150px;
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 1024px) {
+    img {
+        max-width: 95vw;
+    }
+
+    .container {
+        padding: 25px 20px;
+    }
+
+    .date { 
+        flex-direction: column;
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leaves-img {
+        left: 0;
+    }
+
+    .date-text {
+        margin-left: 20px;
+        gap: 25px;
+    }
+
+    .timer {
+        gap: 35px;
+    }
+
+    .time-text {
+        font-size: 24px;
+        line-height: 140%;
+    }
+
+    .heading, .number {
+        font-size: 40px;
+    }
+
+    .sub-heading {
+        margin-bottom: 1px;
+        font-size: 36px;
+        line-height: 140%;
+    }
+
+    .info .leaves {
+        right: -20px;
+    }
+
+    .info-part {
+        margin-bottom: 40px;
+    }
+
+    .telegram-link {
+        padding: 17px 57px;
+    }
+
+    footer {
+        margin: 50px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .date-text h1 {
+        font-size: 55px;
+    }
+
+    .date-text h2 {
+        font-size: 36px;
+        line-height: 140%;
+        margin-bottom: -2px;
+    }
+
+    .date-text p {
+        font-size: 24px;
+        line-height: 140%;
+    }
+}
+
+@media (max-width: 375px) {
+    .info .leaves {
+        top: -45px;
+    }
+}

@@ -37,6 +37,7 @@ body {
     left: 60px;
     top: 0;
 }
+
 .date-text {
     position: relative;
     z-index: 100;
@@ -68,6 +69,11 @@ body {
     font-weight: 400;
     font-size: 32px;
     line-height: 100%;
+}
+
+.polaroid-img {
+    position: relative;
+    z-index: 100;
 }
 
 .timer {
