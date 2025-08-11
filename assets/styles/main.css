@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Santa-Catarina';
+    src: url('../fonts/Santa\ Catarina.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Santa-Catarina', sans-serif;
+    background-color: rgba(245, 238, 235, 1);
+    padding: 50px 100px 100px; 
+}
+
+section:not(:first-child) {
+    margin: 100px 0;
+}
+
+.date {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 150px;
+}
+
+.leaves-img {
+    position: absolute;
+    left: 60px;
+    top: 0;
+}
+.date-text {
+    position: relative;
+    z-index: 100;
+    margin: 50px 0;
+
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 305px;
+}
+
+.date-text h1 {
+    font-size: 85px;
+    line-height: 100%;
+    font-weight: 400;
+}
+
+.date-text h2 {
+    font-size: 56px;
+    line-height: 100%;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.date-text p {
+    font-family: 'Forum', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.time-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    font-size: 64px;
+    line-height: 100%;
+}
+
+.time-text {
+    font-family: 'Forum', sans-serif;
+    font-size: 36px;
+}
+
+footer {
+    margin: 100px 0;
+    text-align: center;
+}
