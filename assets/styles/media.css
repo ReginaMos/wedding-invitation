@@ -36,11 +36,6 @@
         min-width: fit-content;
     }
 
-    .line {
-        margin-bottom: 25px;
-        width: 206px;
-    }
-
     .time-place-text {
         font-size: 20px;
     }
@@ -54,12 +49,12 @@
     }
 
     iframe {
-        max-height: 150px;
-        max-width: 250px;
+        max-height: 200px;
+        max-width: 350px;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1066px) {
     img {
         max-width: 95vw;
     }
@@ -75,13 +70,18 @@
         align-items: center;
     }
 
+    .line {
+        margin-bottom: 25px;
+        width: 206px;
+    }
+
     .leaves-img {
         left: 0;
     }
 
     .date-text {
-        margin-left: 20px;
-        gap: 25px;
+        gap: 35px;
+        margin: 35px 0 50px 20px;
     }
 
     .timer {
@@ -97,10 +97,23 @@
         font-size: 40px;
     }
 
+    .heading {
+        margin-bottom: 20px;
+    }
+
+    .text p {
+        margin-bottom: 30px;
+    }
+
     .sub-heading {
         margin-bottom: 1px;
         font-size: 30px;
         line-height: 140%;
+    }
+
+    iframe {
+        max-height: 150px;
+        max-width: 250px;
     }
 
     .info .leaves {
@@ -126,7 +139,7 @@
     }
 
     .date-text h2 {
-        font-size: 36px;
+        font-size: 32px;
         line-height: 140%;
         margin-bottom: -2px;
     }
