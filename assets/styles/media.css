@@ -7,6 +7,13 @@
         text-align: center;
     }
 
+    .time-place {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        gap: 10px;
+    }
+
     iframe {
         max-height: 300px;
         max-width: 400px;
@@ -34,15 +41,8 @@
         width: 206px;
     }
 
-    .time-place {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: 30px;
-        gap: 10px;
-    }
-
     .time-place-text {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .time-place-number {
@@ -99,7 +99,7 @@
 
     .sub-heading {
         margin-bottom: 1px;
-        font-size: 36px;
+        font-size: 30px;
         line-height: 140%;
     }
 
@@ -122,7 +122,7 @@
 
 @media (max-width: 768px) {
     .date-text h1 {
-        font-size: 55px;
+        font-size: 40px;
     }
 
     .date-text h2 {

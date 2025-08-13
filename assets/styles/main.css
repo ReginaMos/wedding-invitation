@@ -5,8 +5,8 @@
 }
 
 @font-face {
-    font-family: 'Santa-Catarina';
-    src: url('../fonts/Santa\ Catarina.ttf') format('truetype');
+    font-family: 'Oceanic';
+    src: url('../fonts/TRIAL_Oceanic-Regular-BF6487cfe600a81.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -16,7 +16,7 @@ a {
 }
 
 body {
-    font-family: 'Santa-Catarina', sans-serif;
+    font-family: 'Oceanic', sans-serif;
     background-color: rgba(245, 238, 235, 1);
 }
 
@@ -114,6 +114,7 @@ footer {
 }
 
 .heading {
+    font-family: 'Oceanic', sans-serif;
     font-weight: 400;
     font-size: 64px;
     line-height: 100%;
@@ -149,7 +150,7 @@ footer {
 }
 
 .sub-heading {
-    font-size: 56px;
+    font-size: 50px;
     line-height: 100%;
     font-weight: 400;
     margin-bottom: 35px;
@@ -236,7 +237,7 @@ footer {
 
 .time, .place {
     display: flex;
-    gap: 25px;
+    gap: 15px;
     justify-content: center;
     align-items: center;
 }
